@@ -1,6 +1,6 @@
 import React from 'react';
-import webdev from './assets/img/webdev.png';
-import mobiledev from './assets/img/mobiledev.jpg';
+import webdev from './assets/img/web.png';
+import mobiledev from './assets/img/mobile.png';
 import desktop from './assets/img/desktop.png';
 
 const Services = () => {
@@ -9,23 +9,23 @@ const Services = () => {
             <h2 className="center">Servicios</h2>
             <div className="third columns">
                 <h3>Desarrollo Web</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cumque necessitatibus quia fugiat eos aliquid nobis sed, earum perspiciatis placeat vitae commodi tenetur voluptas, eius velit impedit. Cum, odio voluptates.</p>
+                <p>Desde simples páginas de contacto a Web Apps Modernas realizadas con tecnologías de vanguardia.</p>
                 <div className="center">
-                    <img src={ webdev } alt="purelabs web" className="center" height="300"/>
+                    <img src={ webdev } alt="purelabs web" className="info"/>
                 </div>
             </div>
             <div className="third columns">
                 <h3>Desarrollo Móvil</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis asperiores modi accusantium aspernatur. Placeat quibusdam cumque aperiam. Saepe perspiciatis, delectus rerum quod laborum doloribus modi, omnis quaerat, odio totam voluptas.</p>
+                <p>Perfectas para poder hacer llegar sus servicios e ideas a sus clientes o usuarios y tener un alcance masivo.</p>
                 <div className="center">
-                    <img src={ mobiledev } alt="purelabs mobile" className="center" height="300"/>
+                    <img src={ mobiledev } alt="purelabs mobile" className="info"/>
                 </div>
             </div>
             <div className="third columns">
                 <h3>Desarrollo Desktop</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis asperiores modi accusantium aspernatur. Placeat quibusdam cumque aperiam. Saepe perspiciatis, delectus rerum quod laborum doloribus modi, omnis quaerat, odio totam voluptas.</p>
+                <p>Usualmente soluciones empresariales para automatizar procesos, como lo son los ERP y CRM.</p>
                 <div className="center">
-                    <img src={ desktop } alt="purelabs desktop" className="center"/>
+                    <img src={ desktop } alt="purelabs desktop" className="info"/>
                 </div>
             </div>
         </div>

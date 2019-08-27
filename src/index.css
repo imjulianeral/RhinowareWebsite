@@ -13,10 +13,35 @@ code {
 }
 
 .logo {
-  height: 250px;
-  filter: drop-shadow(0 0 20px #313131);
+  height: 400px;
+  margin: 50px;
+  filter: drop-shadow(0 0 20px #00d9ff);
+}
+
+.menu {
+  z-index: 2;
+}
+
+.info {
+  margin-top: 40px;
 }
 
 .center {
   text-align: center;
+}
+
+.contact {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.socialtext {
+  text-align: right;
+}
+
+.pcontact {
+  margin-top: -20px;
+}
+
+.btn {
+  background-color: none;
 }

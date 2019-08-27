@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import Header from './Header';
 // Assets
 import './assets/css/styles.css';
-import logo from './assets/img/logo.png';
+import logo from './assets/img/rhinowaresm.png';
 
 export default class Background extends Component {    
 
     componentDidMount() {
-        window.VANTA.WAVES({ el: "#animation", color: 0x828282, zoom: 0.7 });
+        window.VANTA.WAVES({ el: "#animation", color: 0xc0c0c, zoom: 0.7 });
     }
 
     render() {
@@ -15,8 +15,8 @@ export default class Background extends Component {
             <section id="animation" className="wm">
                 <Header/>
                 <div className="container">
-                    <div className="sixteen columns">
-                        <img src={ logo } alt="purelabs logo" className="logo"/>
+                    <div className="eight columns">
+                        <img src={ logo } alt="rhinoware logo" className="logo"/>
                     </div>
                 </div>
             </section>

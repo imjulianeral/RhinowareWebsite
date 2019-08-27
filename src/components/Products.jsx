@@ -1,17 +1,16 @@
 import React from 'react';
-import softstore from './assets/img/softstore.png';
 
 const Products = () => {
     return (
         <div className="container">
             <h2 className="center">Productos</h2>
-            <div className="four columns">
-                <h3>SoftStore</h3>
-                <p>Punto de venta para medianas y pequeñas empresas.</p>
-                <div className="center">
-                    <img src={ softstore } alt="purelabs mision" className="center"/>
+            <section className="gallery">
+                <div className="third columns half-fixed item" style={{ background: 'linear-gradient(0deg, rgb(8, 174, 234) 0%, rgb(42, 245, 152) 100%)' }}>
+                    <div className="label">CRM Rhino</div>
+                    {/* <p>Web App moderna perfecta para aquellos que quieran trabajar con su información en tiempo real. Ideal para pequenas y medianas empresas.</p> */}
+                
                 </div>
-            </div>
+            </section>
         </div>
     );
 };

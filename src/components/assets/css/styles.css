@@ -363,7 +363,7 @@ section.wm {
   justify-content: center;
   align-items: center;
   min-height: calc(84vh - 100px);
-  /*! color: white; */
+  color: white;
 }
 section.wm.dark-text {
   color: #2b2928;
