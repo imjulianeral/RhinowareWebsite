@@ -29,6 +29,7 @@ const Home = () => {
                 <div className="center">
                     <img src={ vision } alt="rhinoware vision"/>
                 </div>
+                <div className="space"></div>
             </div>
         </div>
     );

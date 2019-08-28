@@ -7,6 +7,7 @@ import Services from './Services';
 import Products from './Products';
 import Contact from './Contact';
 import Error from './Error';
+import Footer from './Footer';
 
 export default class Router extends Component {
     render() {
@@ -20,6 +21,8 @@ export default class Router extends Component {
                     <Route exact path="/contacto" component={ Contact } />
                     <Route component={ Error } />
                 </Switch>
+                
+                <Footer/>
             </BrowserRouter>
         )
     }

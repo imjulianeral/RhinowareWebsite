@@ -11,6 +11,7 @@ const Products = () => {
                 
                 </div>
             </section>
+            <div className="space"></div>
         </div>
     );
 };

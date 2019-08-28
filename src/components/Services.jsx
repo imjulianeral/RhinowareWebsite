@@ -27,6 +27,7 @@ const Services = () => {
                 <div className="center">
                     <img src={ desktop } alt="purelabs desktop" className="info"/>
                 </div>
+                <div className="space"></div>
             </div>
         </div>
     );
